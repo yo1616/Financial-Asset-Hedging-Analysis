@@ -36,7 +36,15 @@ R_{asset,t}=\beta_0+\beta_1R_{SP500,t}+\beta_2D_t+\beta_3(R_{SP500,t}\times D_t)
 \]
 
 The interaction term tests whether an asset's estimated sensitivity to S&P 500 returns changed during the defined COVID-19 period.
+## Selected Visualizations
 
+### Asset Correlations Across Market Conditions
+
+![Correlation Comparison](./outputs/correlation_bar_chart.png)
+
+### Return Relationships During COVID-19
+
+![Crisis-Period Regression](./outputs/covid_slope_comparison.png)
 ## Key Findings
 
 | Asset | Empirical Finding |
