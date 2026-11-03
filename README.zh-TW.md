@@ -34,15 +34,21 @@ R_{asset,t}=\beta_0+\beta_1R_{SP500,t}+\beta_2D_t+\beta_3(R_{SP500,t}\times D_t)
 \]
 
 透過交互作用項，檢驗 COVID 期間資產與股市的估計報酬關係是否發生統計上顯著的變化。
-## Selected Visualizations
 
-### Asset Correlations Across Market Conditions
+## 研究結果視覺化
 
-![Correlation Comparison](./outputs/correlation_bar_chart.png)
+### 不同市場期間的資產相關係數
 
-### Return Relationships During COVID-19
+![資產相關係數比較](./output/correlation_bar_chart.png)
 
-![Crisis-Period Regression](./outputs/covid_slope_comparison.png)
+比較黃金、美國公債 ETF、瑞士法郎與 Bitcoin 在不同市場期間與 S&P 500 的報酬相關性。
+
+### COVID 期間與一般期間的迴歸關係
+
+![COVID 期間迴歸比較](./output/covid_slope_comparison.png)
+
+透過迴歸線比較不同市場期間的報酬關係，觀察危機期間各資產與股市的變化。
+
 ## 主要研究發現
 
 | 資產 | 實證結果 |
